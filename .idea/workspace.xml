@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdd871d0-f588-4439-b20f-0e3ce7cdef76" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/articles/article-previews/adulthood.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/articles/article-previews/worrying.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/articles/article-previews/youmatter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/articles/article-text/adulthood.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/articles/article-text/worrying.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/articles/article-text/youmatter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/articles_pg_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/adulthood.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/worrying.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/youmatter.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/article-template.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/article-template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/articles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/breakup.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/breaking_up.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/frustrated.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/frustration.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/navBar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/navBar.html" afterDir="false" />
-    </list>
+    <list default="true" id="bdd871d0-f588-4439-b20f-0e3ce7cdef76" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -64,13 +46,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="534" column="28" lean-forward="true" selection-start-line="534" selection-start-column="28" selection-end-line="534" selection-end-column="28" />
+            <state relative-caret-position="296">
+              <caret line="532" column="1" lean-forward="true" selection-start-line="532" selection-start-column="1" selection-end-line="532" selection-end-column="1" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/img/services.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file leaf-file-name="articles_pg_2.html" pinned="false" current-in-tab="false">
@@ -122,15 +109,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adulthood.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/articles/article-text/adulthood.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="104" selection-start-line="12" selection-start-column="104" selection-end-line="12" selection-end-column="104" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -142,7 +120,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>box-s</find>
       <find>lg-2</find>
       <find>60</find>
       <find>consu</find>
@@ -172,6 +149,7 @@
       <find>*</find>
       <find>&amp;#39;</find>
       <find>&amp;amp;</find>
+      <find>.btn</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -297,12 +275,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="peaceTree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="peaceTree" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -390,12 +362,12 @@
       <workItem from="1529536065840" duration="6148000" />
       <workItem from="1529696617428" duration="16399000" />
       <workItem from="1529787531569" duration="1803000" />
-      <workItem from="1529789988885" duration="5582000" />
+      <workItem from="1529789988885" duration="5927000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116118000" />
+    <option name="totallyTimeSpent" value="116463000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="215" y="23" width="1394" height="987" extended-state="0" />
@@ -445,13 +417,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/banner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/navBar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -715,13 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/articles.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/articles_pg_2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="471">
@@ -745,12 +703,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/custom.css">
+    <entry file="file://$PROJECT_DIR$/src/articles.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="534" column="28" lean-forward="true" selection-start-line="534" selection-start-column="28" selection-end-line="534" selection-end-column="28" />
+        <state relative-caret-position="424">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="532" column="1" lean-forward="true" selection-start-line="532" selection-start-column="1" selection-end-line="532" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/services.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
