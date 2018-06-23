@@ -1,10 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title id="title"></title>
-</head>
+<!doctype html>
+<html class="no-js" lang="">
+
+<head w3-include-html="head.html"></head>
 <body onload="init()">
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a
+  href="https://browsehappy.com/">upgrade
+  your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<div w3-include-html="navBar.html" class="container-fluid"></div>
+
+
+<h2 class="intro center-block" id="article-title"></h2>
 
 <div id="article"></div>
 
@@ -46,9 +54,30 @@
     const dbREfObject = firebase.database().ref().child("articles").child(key);
     dbREfObject.once('value').then(function(snapshot) {
       document.getElementById("article").innerHTML=snapshot.val()["text"];
-      document.getElementById("title").innerHTML=snapshot.val()["title"];
+      document.getElementById("article-title").innerHTML=snapshot.val()["title"];
+
     });
   }
 </script>
+<div w3-include-html="footer.html"></div>
+<script src="js/main.js"></script>
+<script>includeHTML()</script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () {
+    ga.q.push(arguments)
+  };
+  ga.q = [];
+  ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto');
+  ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+
 </body>
 </html>
