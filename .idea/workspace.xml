@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdd871d0-f588-4439-b20f-0e3ce7cdef76" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/articles/article-template.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/articles/article-template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/article-template.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/article-template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/articles/article-text/052718.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/articles/article-text/052718.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +20,8 @@
       <file leaf-file-name="articles.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/articles.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="701">
-              <caret line="155" column="7" lean-forward="true" selection-start-line="134" selection-start-column="1" selection-end-line="155" selection-end-column="7" />
+            <state relative-caret-position="419">
+              <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
               <folding>
                 <element signature="e#1948#1954#0" expanded="true" />
               </folding>
@@ -28,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="052718.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="052718.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/articles/article-text/052718.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+            <state relative-caret-position="615">
+              <caret line="41" column="80" selection-start-line="41" selection-start-column="80" selection-end-line="41" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -46,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="article-template.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/articles/article-template.html">
+      <file leaf-file-name="article-template.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/article-template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="727">
-              <caret line="82" column="7" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
+            <state relative-caret-position="315">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -161,6 +162,8 @@
         <option value="$PROJECT_DIR$/src/articles/article.html" />
         <option value="$PROJECT_DIR$/src/articles.html" />
         <option value="$PROJECT_DIR$/src/articles/article-template.html" />
+        <option value="$PROJECT_DIR$/src/article-template.html" />
+        <option value="$PROJECT_DIR$/src/articles/article-text/052718.html" />
       </list>
     </option>
   </component>
@@ -222,6 +225,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/articles/article-text" />
       <recent name="$PROJECT_DIR$/src/img" />
     </key>
@@ -289,12 +293,12 @@
       <workItem from="1528592432602" duration="9681000" />
       <workItem from="1529464029886" duration="7941000" />
       <workItem from="1529536065840" duration="6148000" />
-      <workItem from="1529696617428" duration="11654000" />
+      <workItem from="1529696617428" duration="12032000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103988000" />
+    <option name="totallyTimeSpent" value="104366000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="215" y="23" width="1394" height="987" extended-state="0" />
@@ -620,27 +624,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/articles/article-text/052718.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/articles.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="701">
-          <caret line="155" column="7" lean-forward="true" selection-start-line="134" selection-start-column="1" selection-end-line="155" selection-end-column="7" />
+        <state relative-caret-position="419">
+          <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
           <folding>
             <element signature="e#1948#1954#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/articles/article-template.html">
+    <entry file="file://$PROJECT_DIR$/src/article-template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
-          <caret line="82" column="7" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/articles/article-text/052718.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="80" selection-start-line="41" selection-start-column="80" selection-end-line="41" selection-end-column="80" />
         </state>
       </provider>
     </entry>
