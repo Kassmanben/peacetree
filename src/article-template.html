@@ -13,8 +13,6 @@
 
 
 <h2 class="intro center-block" id="article-title"></h2>
-
-
 <div class="container" id="article"></div>
 
 <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
@@ -53,11 +51,43 @@
     firebase.initializeApp(config);
     firebase.database.enableLogging();
     const dbREfObject = firebase.database().ref().child("articles").child(key);
-    dbREfObject.once('value').then(function(snapshot) {
-      document.getElementById("article").innerHTML=snapshot.val()["text"];
-      document.getElementById("article-title").innerHTML=snapshot.val()["title"];
 
+    dbREfObject.once('value').then(function (snapshot) {
+      document.getElementById("article").innerHTML += '<div class="article-photo"><img class="img-responsive" ' +
+        'src="img/'+key+'.jpg" alt="'+snapshot.val()["alttext"]+'"></div>';
+
+      document.getElementById("article").innerHTML += snapshot.val()["text"];
+      document.getElementById("article-title").innerHTML = snapshot.val()["title"];
+      let next = snapshot.val()["next"];
+      let prev = snapshot.val()["prev"];
+      let pagination = document.createElement("div");
+      pagination.innerHTML = '<ul class="pagination justify-content-center mb-4"> ' +
+        '<li class="page-item"> ' +
+        '<a class="page-link" href="articles.html">&larr; Back to Articles</a> ' +
+        '</li> ' +
+        '<li class="page-item disabled" id="prev-list-item"> ' +
+        '<a class="page-link" href="#" id="prev-article">&larr; Previous Article </a> ' +
+        '</li>' +
+        '<li class="page-item disabled" id="next-list-item"> ' +
+        '<a class="page-link" href="#" id="next-article">Next Article &rarr;</a> ' +
+        '</li>' +
+        '</ul>';
+      document.getElementById("article").appendChild(pagination);
+      let ref = firebase.database().ref("articles");
+      ref.once("value")
+        .then(function (snapshot) {
+          console.log(snapshot.child(next + "/title").val());
+          if (next !== "None") {
+            document.getElementById("next-article").href = "article-template.html?a=" + next + "#";
+            document.getElementById("next-list-item").classList.remove("disabled");
+          }
+          if (prev !== "None") {
+            document.getElementById("prev-article").href = "article-template.html?a=" + prev + "#";
+            document.getElementById("prev-list-item").classList.remove("disabled");
+          }
+        });
     });
+
   }
 </script>
 <div w3-include-html="footer.html"></div>

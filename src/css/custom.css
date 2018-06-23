@@ -37,9 +37,12 @@ img {
 }
 
 hr {
-  margin:0;
+  margin: 0;
   border: 1px solid #eee;
 }
+
+
+
 .wider {
   padding: 0;
 }
@@ -71,12 +74,15 @@ hr {
 .navbar-nav, .navbar-toggle {
   width: 100%;
   padding: 0;
-  margin: 7.5px -15px;
   text-align: center;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   font-size: 22px;
   font-weight: 400;
+}
+
+.navbar-toggle{
+  padding: 0 50%;
 }
 
 .navbar-text {
@@ -131,18 +137,15 @@ hr {
   text-decoration: none;
 }
 
-.consultation{
-  font-size:40px;
+.consultation {
+  font-size: 40px;
 }
 
-#services-dropdown{
+#services-dropdown {
   text-align: center;
-  width:260%;
+  width: 260%;
 }
 
-.navbar-toggle{
-  margin:auto;
-}
 @media (max-width: 1201px) {
   .navbar-header {
     float: none;
@@ -153,7 +156,6 @@ hr {
   }
 
   .navbar-collapse {
-    padding: 2.7em;
     border-top: 1px solid transparent;
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
 
@@ -171,7 +173,7 @@ hr {
   }
 
   .navbar-default {
-    height: 50px;
+    min-height: 0px;
   }
 
   .navbar-nav > li {
@@ -201,9 +203,9 @@ hr {
     font-size: 30px;
   }
 
-  #services-dropdown{
+  #services-dropdown {
     text-align: center;
-    width:100%;
+    width: 100%;
     font-size: large;
   }
 
@@ -213,15 +215,16 @@ hr {
   .consultation {
     font-size: 26px;
   }
+
   .dropdown-menu > li > a {
     font-size: large;
     text-align: center;
     margin: 0 30px;
   }
 
-  #services-dropdown{
+  #services-dropdown {
     text-align: center;
-    width:100%;
+    width: 100%;
     font-size: large;
   }
 }
@@ -230,6 +233,7 @@ hr {
   .consultation {
     font-size: 22px;
   }
+
   .navbar li a {
     transition: background-color, color .75s;
     font-size: large;
@@ -242,9 +246,9 @@ hr {
     margin: 0 30px;
   }
 
-  #services-dropdown{
+  #services-dropdown {
     text-align: center;
-    width:100%;
+    width: 100%;
     font-size: large;
   }
 
@@ -314,8 +318,9 @@ hr {
   .navbar-nav > li > a {
     font-size: large;
   }
-  .dropdown-menu{
-    width:100%;
+
+  .dropdown-menu {
+    width: 100%;
   }
 
   .navbar-nav li a {
@@ -454,7 +459,7 @@ footer {
   background-color: #00000082;
 }
 
-.centered{
+.centered {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -480,25 +485,81 @@ footer {
   background-color: rgba(0, 0, 0, 0.98);
 }
 
-.lighter-link-color{
+.lighter-link-color {
   color: #75c6ff;
 }
 
-.card-text{
-  margin-top:0;
+.card-text {
+  margin-top: 0;
   display: -webkit-box;
-  overflow : hidden;
+  overflow: hidden;
   text-overflow: ellipsis;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
 
-.card{
+.card {
   box-shadow: 2px 3px 6px #888888;
   margin: 20px;
   padding: 20px 20px;
 }
 
-.card-title{
+.card-title {
   margin-bottom: 0;
 }
+
+.menu_button_container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.navbar-toggle {
+  border: none;
+  background: transparent !important;
+}
+
+.navbar-toggle:hover {
+  background: transparent !important;
+}
+
+.navbar-toggle .icon-bar {
+  width: 22px;
+  transition: all 0.2s;
+}
+
+.navbar-toggle .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggle .middle-bar {
+  opacity: 0;
+}
+
+.navbar-toggle .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggle.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggle.collapsed .middle-bar {
+  opacity: 1;
+}
+
+.navbar-toggle.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
+.article-photo{
+  margin-bottom: 20px;
+}
+
+.btn{
+  font-family: "Raleway", sans-serif;
+  padding: 7px 12px;
+  background-color: #226086;
+}
+

@@ -1,0 +1,86 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head w3-include-html="head.html"></head>
+
+<body>
+<div>
+  <!--[if lte IE 9]>
+  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a
+    href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <div w3-include-html="navBar.html" class="container-fluid"></div>
+
+
+  <h2 class="intro center-block">Articles</h2>
+
+  <div class="container">
+
+    <div class="row">
+
+      <!-- Blog Entries Column -->
+      <div class="col-md-12">
+
+
+        <!-- Blog Post -->
+        <div class="card mb-4">
+          <img class="card-img-top" src="img/worrying.jpg" alt="worried man sits on a couch with a pillow in his lap">
+          <div class="card-body">
+            <h2 class="card-title">WHEN WORRYING GETS OUT OF HAND</h2>
+            <p class="card-text" w3-include-html="articles/article-previews/worrying.html"></p>
+            <a href="article-template.html?a=worrying#" class="btn btn-primary">Read More &rarr;</a>
+          </div>
+        </div>
+
+        <div class="card mb-4">
+          <img class="card-img-top" src="img/adulthood.jpg" alt="two teens lay on the hood of a car">
+          <div class="card-body">
+            <h2 class="card-title">READY FOR ADULTHOOD OR NOT?</h2>
+            <p class="card-text" w3-include-html="articles/article-previews/adulthood.html"></p>
+            <a href="article-template.html?a=adulthood#" class="btn btn-primary">Read More &rarr;</a>
+          </div>
+        </div>
+
+
+        <!-- Pagination -->
+        <ul class="pagination justify-content-center mb-4">
+          <li class="page-item disabled">
+            <a class="page-link" href="#">&larr; Older</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="articles.html">Newer &rarr;</a>
+          </li>
+        </ul>
+
+      </div>
+
+
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <div w3-include-html="footer.html"></div>
+  <script src="js/main.js"></script>
+  <script>includeHTML()</script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
