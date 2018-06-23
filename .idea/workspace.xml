@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdd871d0-f588-4439-b20f-0e3ce7cdef76" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/articles/article-previews/anxiety.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/articles/article-previews/breaking_up.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/articles/article-previews/frustration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/articles/article-text/anxiety.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/articles/article-text/breaking_up.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/anxiety.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/breakup.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/navbar-brand.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/articles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/articles/article-text/052718.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/articles/article-text/frustration.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/navbar_brand.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/navbar_brand_with_tree.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/navBar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/navBar.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,20 +21,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="articles.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/articles.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            <state relative-caret-position="404">
+              <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="frustration.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/articles/article-previews/frustration.html">
+      <file leaf-file-name="navBar.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/navBar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" selection-start-column="24" selection-end-column="24" />
+            <state relative-caret-position="345">
+              <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -53,56 +48,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/css/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="155" column="16" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="anxiety.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/articles/article-previews/anxiety.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="anxiety.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/articles/article-text/anxiety.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="60" lean-forward="true" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/startbootstrap-blog-home-gh-pages/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="180" column="10" selection-start-line="51" selection-start-column="4" selection-end-line="180" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="article-template.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/article-template.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/custom.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="482" column="11" selection-start-line="482" selection-start-column="11" selection-end-line="482" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="faq.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/faq.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="742">
-              <caret line="91" selection-start-line="69" selection-end-line="91" />
             </state>
           </provider>
         </entry>
@@ -118,10 +77,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>practice</find>
-      <find>o</find>
-      <find>​</find>
-      <find>a:</find>
       <find>front</find>
       <find>page-</find>
       <find>foot</find>
@@ -148,6 +103,10 @@
       <find>&amp;amp;</find>
       <find>•</find>
       <find>sear</find>
+      <find>brand_</find>
+      <find>navbar-to</find>
+      <find>navbar-header .</find>
+      <find>icon-</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -176,17 +135,14 @@
         <option value="$PROJECT_DIR$/src/head.html" />
         <option value="$PROJECT_DIR$/src/other_services.html" />
         <option value="$PROJECT_DIR$/src/contact.html" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/src/footer.html" />
         <option value="$PROJECT_DIR$/src/faq.html" />
         <option value="$PROJECT_DIR$/src/services.html" />
-        <option value="$PROJECT_DIR$/src/navBar.html" />
         <option value="$PROJECT_DIR$/src/articles/052718.html" />
         <option value="$PROJECT_DIR$/src/articles/article.html" />
         <option value="$PROJECT_DIR$/src/articles/article-template.html" />
         <option value="$PROJECT_DIR$/src/article-template.html" />
-        <option value="$PROJECT_DIR$/src/css/custom.css" />
         <option value="$PROJECT_DIR$/src/articles/article-text/052718.html" />
         <option value="$PROJECT_DIR$/src/articles/article-text/032618.html" />
         <option value="$PROJECT_DIR$/src/articles/article-previews/breaking_up.html" />
@@ -194,8 +150,11 @@
         <option value="$PROJECT_DIR$/src/articles/article-text/frustration.html" />
         <option value="$PROJECT_DIR$/src/articles/article-previews/anxiety.html" />
         <option value="$PROJECT_DIR$/src/articles/article-text/anxiety.html" />
-        <option value="$PROJECT_DIR$/src/articles.html" />
         <option value="$PROJECT_DIR$/src/articles/article-previews/frustration.html" />
+        <option value="$PROJECT_DIR$/src/articles.html" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/navBar.html" />
+        <option value="$PROJECT_DIR$/src/css/custom.css" />
       </list>
     </option>
   </component>
@@ -243,21 +202,13 @@
               <item name="peaceTree" type="b2602c69:ProjectViewProjectNode" />
               <item name="peaceTree" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="articles" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="peaceTree" type="b2602c69:ProjectViewProjectNode" />
               <item name="peaceTree" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="articles" type="462c0819:PsiDirectoryNode" />
-              <item name="article-previews" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="peaceTree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="peaceTree" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="articles" type="462c0819:PsiDirectoryNode" />
-              <item name="article-text" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -296,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.faq.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="faq.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/peaceTree/src/faq.html" />
     <configuration name="head.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/peaceTree/src/head.html" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/peaceTree/src/index.html" />
@@ -309,8 +260,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.faq.html" />
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.faq.html" />
         <item itemvalue="JavaScript Debug.head.html" />
         <item itemvalue="JavaScript Debug.services.html" />
       </list>
@@ -342,12 +293,12 @@
       <workItem from="1528592432602" duration="9681000" />
       <workItem from="1529464029886" duration="7941000" />
       <workItem from="1529536065840" duration="6148000" />
-      <workItem from="1529696617428" duration="14904000" />
+      <workItem from="1529696617428" duration="16399000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107238000" />
+    <option name="totallyTimeSpent" value="108733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="215" y="23" width="1394" height="987" extended-state="0" />
@@ -379,13 +330,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/services.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/banner.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -499,9 +443,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts.html" />
-    <entry file="file://$PROJECT_DIR$/src/img/peace_tree_header.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/humans.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -539,9 +480,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/img/brand.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/navbar_brand.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/head.html">
@@ -589,24 +527,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="20" lean-forward="true" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/navBar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -628,13 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="482" column="11" selection-start-line="482" selection-start-column="11" selection-end-line="482" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -673,10 +590,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/articles/article-previews/frustration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/articles.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        <state relative-caret-position="202">
+          <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/peace_tree_header.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/peace_tree_header.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/navbar_brand_with_tree.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -687,10 +627,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/articles/article-previews/frustration.html">
+    <entry file="file://$PROJECT_DIR$/src/navBar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        <state relative-caret-position="345">
+          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="155" column="16" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="16" />
         </state>
       </provider>
     </entry>

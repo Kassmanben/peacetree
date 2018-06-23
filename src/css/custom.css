@@ -68,7 +68,7 @@ hr {
 
 }
 
-.navbar-nav {
+.navbar-nav, .navbar-toggle {
   width: 100%;
   padding: 0;
   margin: 7.5px -15px;
@@ -139,6 +139,10 @@ hr {
   text-align: center;
   width:260%;
 }
+
+.navbar-toggle{
+  margin:auto;
+}
 @media (max-width: 1201px) {
   .navbar-header {
     float: none;
@@ -149,7 +153,7 @@ hr {
   }
 
   .navbar-collapse {
-    padding: 0;
+    padding: 2.7em;
     border-top: 1px solid transparent;
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
 
@@ -419,6 +423,7 @@ footer {
 
 .brand_icon {
   width: 100%;
+
   margin: auto;
 }
 
@@ -429,15 +434,14 @@ footer {
 /* Style the button and place it in the middle of the container/image */
 .navbar-header .btn {
   position: absolute;
-  top: 35%;
-  left: 4%;
+  top: 49%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
   background-color: white;
-  opacity: .8;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  border: solid 2px black;
   padding: 5px;
-  box-shadow: 2px 3px 6px #888888;
   cursor: pointer;
 }
 
@@ -450,7 +454,7 @@ footer {
   background-color: #00000082;
 }
 
-.centered {
+.centered{
   position: absolute;
   top: 50%;
   left: 50%;
