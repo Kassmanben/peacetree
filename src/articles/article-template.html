@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title id="title"></title>
+</head>
+<body onload="init()">
+
+<div id="article"></div>
+
+<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
+<script>
+
+
+  function parseURLParams(url) {
+    let queryStart = url.indexOf("?") + 1,
+      queryEnd = url.indexOf("#") + 1 || url.length + 1,
+      query = url.slice(queryStart, queryEnd - 1),
+      pairs = query.replace(/\+/g, " ").split("&"),
+      params = {}, i, n, v, nv;
+    if (query === url || query === "") return;
+    for (i = 0; i < pairs.length; i++) {
+      nv = pairs[i].split("=", 2);
+      n = decodeURIComponent(nv[0]);
+      v = decodeURIComponent(nv[1]);
+      if (!params.hasOwnProperty(n)) params[n] = [];
+      params[n].push(nv.length === 2 ? v : null);
+    }
+    return params;
+  }
+
+  function init() {
+    let url_info = parseURLParams(document.location.href);
+    let key = url_info["a"].toString().replace("[object Object]", "").trim();
+
+    var config = {
+      apiKey: "AIzaSyCiDA5qQNnwsdyTJSv85_ZJgqrupyr_u_w",
+      authDomain: "peacetree-9caf9.firebaseapp.com",
+      databaseURL: "https://peacetree-9caf9.firebaseio.com",
+      projectId: "peacetree-9caf9",
+      storageBucket: "peacetree-9caf9.appspot.com",
+      messagingSenderId: "1015589984210"
+    };
+    firebase.initializeApp(config);
+    firebase.database.enableLogging();
+    const dbREfObject = firebase.database().ref().child("articles").child(key);
+    dbREfObject.once('value').then(function(snapshot) {
+      document.getElementById("article").innerHTML=snapshot.val()["text"];
+      document.getElementById("title").innerHTML=snapshot.val()["title"];
+    });
+  }
+</script>
+</body>
+</html>

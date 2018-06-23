@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head w3-include-html="head.html"></head>
+
+<body>
+<div w3-include-html="banner.html"></div>
+<div w3-include-html="navBar.html"></div>
+<h2 class="intro center-block">Contact Me</h2>
+
+<div class="container col center-block">
+  <figure class="figure">
+    <form action="https://formspree.io/shebkass@gmail.com"
+          method="POST">
+      <div class="form-group">
+        <input type="hidden" name="_subject" id="_subject" value="You have a new message from a client!"/>
+        <input type="text" name="_gotcha" style="display:none"/>
+        <div class="col">
+          <label for="name" class="col-sm-2 col-form-label">Name: </label>
+          <input type="text" name="name" id="name" placeholder="Your Name" class="form-control"><br>
+        </div>
+        <div class="col">
+          <label for="email" class="col-sm-2 col-form-label">Email: </label>
+          <input type="email" name="email" placeholder="Your Email" class="form-control" id="email"><br>
+        </div>
+        <div class="col">
+          <label for="phone" class="col-sm-2 col-form-label">Phone: </label>
+          <input type="text" name="phone" placeholder='Your Phone Number' class="form-control" id="phone"><br>
+        </div>
+        <div class="col">
+          <label for="reason" class="col-sm-5 col-form-label">Reason for Contact: </label>
+          <textarea name="message" placeholder="Your reason for contacting me" class="form-control" id="reason"
+                    rows="5"></textarea><br>
+        </div>
+
+        <button type="submit" class="btn btn-primary" value="Send">Send</button>
+      </div>
+    </form>
+  </figure>
+</div>
+<div w3-include-html="footer.html"></div>
+<script src="js/main.js"></script>
+<script>includeHTML()</script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () {
+    ga.q.push(arguments)
+  };
+  ga.q = [];
+  ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto');
+  ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
