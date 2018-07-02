@@ -1,3 +1,9 @@
+body {
+  background-color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
 h1 {
   font-family: "Raleway", sans-serif;
   font-size: 60px;
@@ -18,17 +24,9 @@ h3 {
   font-weight: bold;
 }
 
-p {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  margin-top: 8px;
-}
-
-body {
-  min-width: 540px;
-  background-color: #ffffff;
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+hr {
+  margin: 0;
+  border: 1px solid #eee;
 }
 
 img {
@@ -36,12 +34,305 @@ img {
   width: 100%;
 }
 
-hr {
-  margin: 0;
-  border: 1px solid #eee;
+form {
+  font-family: "Open Sans", sans-serif;
+}
+
+footer {
+  margin-top: 40px;
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  margin-top: 8px;
 }
 
 
+
+.article-photo{
+  margin-bottom: 20px;
+}
+
+.brand_bar {
+  object-fit: none;
+  object-position: center;
+  width: 100%;
+  height: 50px;
+  margin: auto;
+}
+
+.brand_icon {
+  width: 100%;
+  margin: auto;
+}
+
+.btn{
+  font-family: "Raleway", sans-serif;
+  padding: 7px 12px;
+  background-color: #226086;
+}
+
+.card {
+  box-shadow: 2px 3px 6px #888888;
+  margin: 20px;
+  padding: 20px 20px;
+}
+
+.card-text {
+  margin-top: 0;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.card-title {
+  margin-bottom: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+}
+
+.consultation {
+  font-size: 40px;
+}
+
+.container {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 23px 30px;
+  font-size: 30px;
+  width: 75px;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin: 0 30px;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa.fa-navicon {
+  color: black;
+}
+
+.img-responsive #heading_img {
+  padding-top: .5%;
+}
+
+.intro {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.footer-copyright {
+  margin-top: 15px;
+}
+
+.image_container {
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+}
+
+.lighter, .article-date {
+  color: rgba(90, 90, 90, 0.85);
+}
+
+.lighter-link-color {
+  color: #75c6ff;
+}
+
+.links {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.menu_button_container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.navbar {
+  margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+.navbar li {
+  float: none;
+  display: inline-block;
+}
+
+.navbar li a {
+  transition: background-color, color .75s;
+  font-size: x-large;
+}
+
+.navbar-brand {
+  float: none;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-size: medium;
+  margin-right: auto;
+  height: 100%;
+  padding: 0;
+  display: block;
+}
+
+.navbar-default {
+  background-color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: rgba(0, 0, 0, 0.99);
+  background-color: #e2e2e2;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #00000082;
+}
+
+.navbar-header {
+  float: left;
+  text-align: center;
+  width: 100%;
+  display: inline;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.navbar-header .btn {
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  padding: 5px;
+  cursor: pointer;
+}
+
+.navbar-header .btn:hover {
+  background-color: #ffffff;
+  opacity: 1.0;
+}
+
+.navbar-nav, .navbar-toggle {
+  width: 100%;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.navbar-nav li a {
+  color: #777;
+  text-decoration: none;
+}
+
+.navbar-toggle {
+  padding: 0 50%;
+  border: none;
+  background: transparent !important;
+}
+
+.navbar-toggle .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggle:hover {
+  background: transparent !important;
+}
+
+.navbar-toggle .icon-bar {
+  width: 22px;
+  transition: all 0.2s;
+}
+
+.navbar-toggle .middle-bar {
+  opacity: 0;
+}
+
+.navbar-toggle .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+
+.navbar-toggle.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggle.collapsed .middle-bar {
+  opacity: 1;
+}
+
+.navbar-toggle.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
+.navbar-text {
+  display: inline;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .6;
+  background-color: rgba(0, 0, 0, 0.98);
+}
+
+.question {
+  font-weight: bold;
+}
 
 .wider {
   padding: 0;
@@ -56,202 +347,22 @@ hr {
   margin-bottom: 14px;
 }
 
-.container {
-  padding-left: 50px;
-  padding-right: 50px;
+#psych_today {
+  margin: 0 30px 0 10px;
+  width: auto;
 }
-
-.navbar {
-  margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
-}
-
-.navbar-default {
-  background-color: #ffffff;
-
-}
-
-.navbar-nav, .navbar-toggle {
-  width: 100%;
-  padding: 0;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
-  font-size: 22px;
-  font-weight: 400;
-}
-
-.navbar-toggle{
-  padding: 0 50%;
-}
-
-.navbar-text {
-  display: inline;
-}
-
-.navbar li {
-  float: none;
-  display: inline-block;
-}
-
-.navbar li a {
-  transition: background-color, color .75s;
-  font-size: x-large;
-  /*padding: 8px 60px;*/
-}
-
-.navbar-header {
-  float: left;
-  text-align: center;
-  width: 100%;
-  display: inline;
-}
-
-.navbar-brand {
-  float: none;
-  text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
-  font-size: medium;
-  margin-right: auto;
-  height: 100%;
-  padding: 0;
-  display: block;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-  color: rgba(0, 0, 0, 0.99);
-  background-color: #e2e2e2;
-}
-
-/* Style all font awesome icons */
-.fa {
-  padding: 23px 30px;
-  font-size: 30px;
-  width: 75px;
-  text-decoration: none;
-  vertical-align: middle;
-}
-
-.navbar-nav li a {
-  color: #777;
-  text-decoration: none;
-}
-
-.consultation {
-  font-size: 40px;
-}
-
 #services-dropdown {
   text-align: center;
   width: 260%;
 }
-
-@media (max-width: 1201px) {
-  .navbar-header {
-    float: none;
-  }
-
-  .navbar-toggle {
-    display: block;
-  }
-
-  .navbar-collapse {
-    border-top: 1px solid transparent;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
-
-  }
-
-  .navbar-collapse.collapse {
-    display: none !important;
-  }
-
-  .navbar-nav {
-    float: none !important;
-    background-color: white;
-    margin: 0;
-
-  }
-
-  .navbar-default {
-    min-height: 0px;
-  }
-
-  .navbar-nav > li {
-    float: none;
-  }
-
-  .navbar-nav > li > a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
-  .navbar-text {
-    float: none;
-    margin: 15px 0;
-  }
-
-  /* since 3.1.0 */
-  .navbar-collapse.collapse.in {
-    display: block !important;
-  }
-
-  .collapsing {
-    overflow: hidden !important;
-  }
-
-  .consultation {
-    font-size: 30px;
-  }
-
-  #services-dropdown {
-    text-align: center;
-    width: 100%;
-    font-size: large;
-  }
-
+#services_focus {
+  margin: 10px;
 }
 
-@media (max-width: 992px) {
-  .consultation {
-    font-size: 26px;
-  }
-
-  .dropdown-menu > li > a {
-    font-size: large;
-    text-align: center;
-    margin: 0 30px;
-  }
-
-  #services-dropdown {
-    text-align: center;
-    width: 100%;
-    font-size: large;
-  }
-}
-
-@media (max-width: 768px) {
-  .consultation {
-    font-size: 22px;
-  }
-
-  .navbar li a {
-    transition: background-color, color .75s;
-    font-size: large;
-    /*padding: 8px 60px;*/
-  }
-
-  .dropdown-menu > li > a {
-    font-size: large;
-    text-align: center;
-    margin: 0 30px;
-  }
-
-  #services-dropdown {
-    text-align: center;
-    width: 100%;
-    font-size: large;
-  }
-
+#services_focus li {
+  font-family: "Open Sans", sans-serif;
+  padding: 6px 6px;
+  font-size: 16px;
 }
 
 @media (min-width: 1201px ) {
@@ -290,6 +401,69 @@ hr {
 
 }
 
+@media (max-width: 1201px) {
+  .collapsing {
+    overflow: hidden !important;
+  }
+
+  .consultation {
+    font-size: 30px;
+  }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+
+  }
+
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+
+  .navbar-collapse.collapse.in {
+    display: block !important;
+  }
+
+  .navbar-default {
+    min-height: 0px;
+  }
+
+  .navbar-header {
+    float: none;
+  }
+
+  .navbar-nav {
+    float: none !important;
+    background-color: white;
+    margin: 0;
+  }
+
+  .navbar-nav > li {
+    float: none;
+  }
+
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .navbar-text {
+    float: none;
+    margin: 15px 0;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  #services-dropdown {
+    text-align: center;
+    width: 100%;
+    font-size: large;
+  }
+
+}
+
 @media (min-width: 992px) {
   .container {
     width: 750px;
@@ -302,13 +476,34 @@ hr {
 
 }
 
+@media (max-width: 992px) {
+  .consultation {
+    font-size: 26px;
+  }
+
+  .dropdown-menu > li > a {
+    font-size: large;
+    text-align: center;
+    margin: 0 30px;
+  }
+
+  #services-dropdown {
+    text-align: center;
+    width: 100%;
+    font-size: large;
+  }
+}
+
 @media (min-width: 768px) {
 
-  #about_me, #front_page_text {
-    margin-top: 42.5px;
-    margin-bottom: 42.5px;
-    padding-left: 15px;
-    padding-right: 15px;
+  .dropdown-menu {
+    width: 100%;
+  }
+
+  .dropdown-menu > li > a {
+    font-size: large;
+    text-align: center;
+    margin: 0 30px;
   }
 
   .navbar-brand {
@@ -319,12 +514,28 @@ hr {
     font-size: large;
   }
 
-  .dropdown-menu {
-    width: 100%;
-  }
-
   .navbar-nav li a {
     font-size: large;
+  }
+
+  #about_me, #front_page_text {
+    margin-top: 42.5px;
+    margin-bottom: 42.5px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .consultation {
+    font-size: 22px;
+  }
+
+  .navbar li a {
+    transition: background-color, color .75s;
+    font-size: large;
+    /*padding: 8px 60px;*/
   }
 
   .dropdown-menu > li > a {
@@ -333,233 +544,73 @@ hr {
     margin: 0 30px;
   }
 
-}
-
-.img-responsive #heading_img {
-  padding-top: .5%;
-}
-
-.question {
-  font-weight: bold;
-}
-
-.center {
-  text-align: center;
-}
-
-form {
-  font-family: "Open Sans", sans-serif;
-}
-
-footer {
-  margin-top: 40px;
-  font-family: "Open Sans", sans-serif;
-}
-
-.intro {
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  #services-dropdown {
+    text-align: center;
+    width: 100%;
+    font-size: large;
+  }
 
 }
 
-.no-margin {
-  margin: 0;
+@media (max-width: 425px){
+
+  .article-list{
+    padding:0
+  }
+
+  .card-title{
+    font-size: x-large;
+    margin:5px 0px;
+  }
+
+  .card-text{
+    font-size: small;
+  }
+  .consultation{
+    font-size: medium;
+    margin:5px;
+    padding:0;
+  }
+
+  .container-fluid{
+    padding:0;
+  }
+
+  .fa {
+    height:50px;
+    width:50px;
+    font-size: x-large;
+    padding: 13px 16px;
+  }
+
+  .footer-copyright{
+    font-size: x-small;
+  }
+
+  .image_container{
+    min-height:250px;
+  }
+
+  .intro{
+    width: 90%;
+  }
+
+  .page-link{
+    margin-left: 5px;
+  }
+
+  #about_me_image{
+    width: 90%;
+  }
+
+  #heading_img{
+    min-height:250px;
+    object-fit:none;
+  }
+  #psych_today{
+    height: 50px;
+  }
 }
 
-#services_focus {
-  margin: 10px;
-}
 
-#services_focus li {
-  font-family: "Open Sans", sans-serif;
-  padding: 6px 6px;
-  font-size: 16px;
-}
-
-.fa.fa-navicon {
-  color: black;
-}
-
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
-}
-
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-  margin: 0 30px;
-}
-
-/* Twitter */
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-.lighter, .article-date {
-  color: rgba(90, 90, 90, 0.85);
-}
-
-#psych_today {
-  margin: 0 30px 0 10px;
-  width: auto;
-}
-
-.links {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-.footer-copyright {
-  margin-top: 15px;
-}
-
-.brand_bar {
-  object-fit: none;
-  object-position: center;
-  width: 100%;
-  height: 50px;
-  margin: auto;
-}
-
-.brand_icon {
-  width: 100%;
-
-  margin: auto;
-}
-
-.no-padding {
-  padding: 0;
-}
-
-/* Style the button and place it in the middle of the container/image */
-.navbar-header .btn {
-  position: absolute;
-  top: 49%;
-  left: 50%;
-  width: 100%;
-  height: 100%;
-  background-color: white;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  padding: 5px;
-  cursor: pointer;
-}
-
-.navbar-header .btn:hover {
-  background-color: #ffffff;
-  opacity: 1.0;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #00000082;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 90%;
-}
-
-.image_container {
-  position: relative;
-  text-align: center;
-  color: #ffffff;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: .6;
-  background-color: rgba(0, 0, 0, 0.98);
-}
-
-.lighter-link-color {
-  color: #75c6ff;
-}
-
-.card-text {
-  margin-top: 0;
-  display: -webkit-box;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-}
-
-.card {
-  box-shadow: 2px 3px 6px #888888;
-  margin: 20px;
-  padding: 20px 20px;
-}
-
-.card-title {
-  margin-bottom: 0;
-}
-
-.menu_button_container {
-  display: inline-block;
-  cursor: pointer;
-}
-
-.navbar-toggle {
-  border: none;
-  background: transparent !important;
-}
-
-.navbar-toggle:hover {
-  background: transparent !important;
-}
-
-.navbar-toggle .icon-bar {
-  width: 22px;
-  transition: all 0.2s;
-}
-
-.navbar-toggle .top-bar {
-  transform: rotate(45deg);
-  transform-origin: 10% 10%;
-}
-
-.navbar-toggle .middle-bar {
-  opacity: 0;
-}
-
-.navbar-toggle .bottom-bar {
-  transform: rotate(-45deg);
-  transform-origin: 10% 90%;
-}
-
-.navbar-toggle.collapsed .top-bar {
-  transform: rotate(0);
-}
-
-.navbar-toggle.collapsed .middle-bar {
-  opacity: 1;
-}
-
-.navbar-toggle.collapsed .bottom-bar {
-  transform: rotate(0);
-}
-
-.article-photo{
-  margin-bottom: 20px;
-}
-
-.btn{
-  font-family: "Raleway", sans-serif;
-  padding: 7px 12px;
-  background-color: #226086;
-}
 
