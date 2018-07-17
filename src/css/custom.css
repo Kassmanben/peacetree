@@ -552,6 +552,23 @@ p {
 
 }
 
+@media (max-width: 570px){
+
+  .consultation{
+    font-size: medium;
+  }
+  .fa {
+    height:50px;
+    width:50px;
+    font-size: x-large;
+    padding: 13px 16px;
+  }
+
+  #psych_today{
+    height: 50px;
+  }
+}
+
 @media (max-width: 425px){
 
   .article-list{
@@ -576,12 +593,7 @@ p {
     padding:0;
   }
 
-  .fa {
-    height:50px;
-    width:50px;
-    font-size: x-large;
-    padding: 13px 16px;
-  }
+
 
   .footer-copyright{
     font-size: x-small;
@@ -607,8 +619,11 @@ p {
     min-height:250px;
     object-fit:none;
   }
-  #psych_today{
-    height: 50px;
+
+
+  .overlay{
+    top: 8%;
+    height:84%;
   }
 }
 
