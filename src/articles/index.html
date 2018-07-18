@@ -1,17 +1,71 @@
 <!doctype html>
 <html class="no-js" lang="">
 
-<head w3-include-html="head.html"></head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Peace Tree Counseling</title>
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../css/custom.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Raleway|Karla" rel="stylesheet">
+<link rel="icon" href="../img/favicon.ico">
 
 <body>
-<div>
+
+<a href="index.html" class="no-padding"><img src="../img/brand.jpg"
+                                             class="brand_icon img-responsive"
+                                             alt="Peace Tree Counseling Llc"></a>
+
+<nav class="navbar navbar-default" role="navigation">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"
+            aria-expanded="false" aria-controls="navbar-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar top-bar"></span>
+      <span class="icon-bar middle-bar"></span>
+      <span class="icon-bar bottom-bar"></span>
+    </button>
+    <!--<a class="navbar-brand center-block hidden-lg" href="about.html"><img class="brand_bar" src="img/navbar-brand.png"-->
+    <!--alt="Peace Tree Counseling Llc"></a>-->
+  </div>
+
+  <div class="collapse navbar-collapse" id="navbar-collapse">
+    <ul class="nav navbar-nav container-fluid">
+      <li class="col-md-11 col-sm-11 col-xs-11 col-lg-2 no-padding"><a href="../index.html">Home</a></li>
+      <li class="col-md-11 col-sm-11 col-xs-11 col-lg-2 no-padding"><a href="../about.html">About Me</a></li>
+      <li class="dropdown col-md-11 col-sm-11 col-xs-11 col-lg-2 no-padding">
+        <a href="../services.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+           aria-expanded="false">Services<span class="caret"></span></a>
+        <div class="dropdown-menu" id="services-dropdown">
+          <a href="../services.html" class="dropdown-item col-lg-12">Counseling Services</a>
+          <hr/>
+          <a href="../other_services.html" class="dropdown-item col-lg-12">Workshops, Presentations and Guest
+            Speaker</a>
+        </div>
+      </li>
+      <li class="dropdown col-md-11 col-sm-11 col-xs-11 col-lg-2 no-padding">
+        <a href="../articles/index.html" class="dropdown-toggle" data-toggle="dropdown" role="button"
+           aria-haspopup="true"
+           aria-expanded="false">More<span class="caret"></span></a>
+        <div class="dropdown-menu ">
+          <a href="../faq.html" class="dropdown-item col-lg-12">FAQs</a>
+          <hr/>
+          <a href="../articles/index.html" class="dropdown-item col-lg-12">Articles</a>
+        </div>
+      </li>
+      <li class="col-md-11 col-sm-11 col-xs-11 col-lg-3 no-padding"><a href="../contact.html">Contact Me</a></li>
+
+    </ul>
+  </div><!-- /.navbar-collapse -->
+
+</nav>
+
   <!--[if lte IE 9]>
   <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a
     href="https://browsehappy.com/">upgrade
     your browser</a> to improve your experience and security.</p>
   <![endif]-->
-
-  <div w3-include-html="navBar.html" class="container-fluid"></div>
 
 
   <h2 class="intro center-block">Articles</h2>
@@ -24,10 +78,11 @@
       <div class="col-md-12">
 
         <div class="card mb-4">
-          <img class="card-img-top" src="../img/youmatter.jpg" alt="man stands with his back to the camera, looking out at the sunset over the ocean">
+          <img class="card-img-top" src="../img/youmatter.jpg"
+               alt="man stands with his back to the camera, looking out at the sunset over the ocean">
           <div class="card-body">
             <h2 class="card-title">YOU MATTER</h2>
-            <p class="card-text" w3-include-html="articles/article-previews/youmatter.html"></p>
+            <p class="card-text" w3-include-html="article-previews/youmatter.html"></p>
             <a href="../article-template.html?a=youmatter#" class="btn btn-primary">Read More &rarr;</a>
           </div>
         </div>
@@ -37,7 +92,7 @@
           <img class="card-img-top" src="../img/frustration.jpg" alt="someone hiding under pillows on a couch">
           <div class="card-body">
             <h2 class="card-title">MANAGING YOUR FRUSTRATIONS</h2>
-            <p class="card-text" w3-include-html="articles/article-previews/frustration.html"></p>
+            <p class="card-text" w3-include-html="article-previews/frustration.html"></p>
             <a href="../article-template.html?a=frustration#" class="btn btn-primary">Read More &rarr;</a>
           </div>
         </div>
@@ -47,7 +102,7 @@
           <img class="card-img-top" src="../img/breaking_up.jpg" alt="a picture of a broken heart on a string">
           <div class="card-body">
             <h2 class="card-title">BREAKING UP IS HARD TO DO</h2>
-            <p class="card-text" w3-include-html="articles/article-previews/breaking_up.html"></p>
+            <p class="card-text" w3-include-html="article-previews/breaking_up.html"></p>
             <a href="../article-template.html?a=breaking_up#" class="btn btn-primary">Read More &rarr;</a>
           </div>
         </div>
@@ -57,7 +112,7 @@
           <img class="card-img-top" src="../img/anxiety.jpg" alt="a woman sits on the roof of a building">
           <div class="card-body">
             <h2 class="card-title">"JUST CALM DOWN" DOESN'T HELP</h2>
-            <p class="card-text" w3-include-html="articles/article-previews/anxiety.html"></p>
+            <p class="card-text" w3-include-html="article-previews/anxiety.html"></p>
             <a href="../article-template.html?a=anxiety#" class="btn btn-primary">Read More &rarr;</a>
           </div>
         </div>
@@ -66,7 +121,7 @@
         <!-- Pagination -->
         <ul class="pagination justify-content-center mb-4">
           <li class="page-item">
-            <a class="page-link" href="articles_pg_2/index.html">&larr; Older</a>
+            <a class="page-link" href="articles_pg_2.html">&larr; Older</a>
           </li>
           <li class="page-item disabled">
             <a class="page-link" href="#">Newer &rarr;</a>
@@ -75,61 +130,47 @@
 
       </div>
 
-      <!--&lt;!&ndash; Sidebar Widgets Column &ndash;&gt;-->
-      <!--<div class="col-md-4">-->
-
-
-        <!--&lt;!&ndash; Categories Widget &ndash;&gt;-->
-        <!--<div class="card my-4">-->
-          <!--<h5 class="card-header">Categories</h5>-->
-          <!--<div class="card-body">-->
-            <!--<div class="row">-->
-              <!--<div class="col-lg-6">-->
-                <!--<ul class="list-unstyled mb-0">-->
-                  <!--<li>-->
-                    <!--<a href="#">Web Design</a>-->
-                  <!--</li>-->
-                  <!--<li>-->
-                    <!--<a href="#">HTML</a>-->
-                  <!--</li>-->
-                  <!--<li>-->
-                    <!--<a href="#">Freebies</a>-->
-                  <!--</li>-->
-                <!--</ul>-->
-              <!--</div>-->
-              <!--<div class="col-lg-6">-->
-                <!--<ul class="list-unstyled mb-0">-->
-                  <!--<li>-->
-                    <!--<a href="#">JavaScript</a>-->
-                  <!--</li>-->
-                  <!--<li>-->
-                    <!--<a href="#">CSS</a>-->
-                  <!--</li>-->
-                  <!--<li>-->
-                    <!--<a href="#">Tutorials</a>-->
-                  <!--</li>-->
-                <!--</ul>-->
-              <!--</div>-->
-            <!--</div>-->
-          <!--</div>-->
-        <!--</div>-->
-
-        <!--&lt;!&ndash; Side Widget &ndash;&gt;-->
-        <!--<div class="card my-4">-->
-          <!--<h5 class="card-header">Side Widget</h5>-->
-          <!--<div class="card-body">-->
-            <!--You can put anything you want inside of these side widgets. They are easy to use, and feature the new-->
-            <!--Bootstrap 4 card containers!-->
-          <!--</div>-->
-        <!--</div>-->
-
-      <!--</div>-->
 
     </div>
     <!-- /.row -->
 
   </div>
-  <div w3-include-html="footer.html"></div>
+  <footer class="page-footer font-small pt-4 mt-4">
+    <div class="image_container">
+
+      <img srcset="../img/peace_tree_header.jpg 1914w, ../img/peace_tree_header-480px.jpg 480w"
+           sizes="(max-width: 900px) 1900px, (max-width: 480px) 480px" src="../img/peace_tree_header.jpg"
+           alt="peaceTreeHeader" id="heading_img" class="transparent-image">
+      <div class="overlay"></div>
+
+
+      <!--Footer Links-->
+      <div class="container-fluid text-center text-md-left centered">
+        <p class="consultation"> Call now for a FREE 30 minute phone consultation</p>
+        <p class="consultation"><a href="tel:7203208743" class="lighter-link-color">720-320-8743</a></p>
+        <div class="container-fluid">
+          <a href="https://www.facebook.com/PeaceTreeCounseling/" class="fa fa-facebook"></a>
+          <!--Professional verification provided by Psychology Today -->
+          <a href="https://www.psychologytoday.com/profile/133271?tr=Ext_Verify"
+             title="verified by Psychology Today">
+            <img src="https://www.psychologytoday.com/profile/133271/verification.gif"
+                 height="75" width="184"
+                 alt="verified by Psychology Today"
+                 border="0" id="psych_today">
+          </a>
+          <!-- End Verification -->
+        </div>
+        <div class="footer-copyright py-3 text-center">
+          © 2018 Copyright: PeaceTreeCo.com <br> Website Design by Ben Kassman
+        </div>
+      </div>
+      <!--/.Footer Links-->
+
+      <!--Copyright-->
+
+      <!--/.Copyright-->
+    </div>
+  </footer>
   <script src="../js/main.js"></script>
   <script>includeHTML()</script>
 
@@ -137,10 +178,10 @@
   <script>
     window.ga = function () {
       ga.q.push(arguments)
-    };
-    ga.q = [];
-    ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto');
+    }
+    ga.q = []
+    ga.l = +new Date
+    ga('create', 'UA-XXXXX-Y', 'auto')
     ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
